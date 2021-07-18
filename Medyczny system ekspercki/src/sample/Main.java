@@ -136,7 +136,7 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader();
         Parent root = fxmlLoader.load(getClass().getResource("sample.fxml").openStream());
         root.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
-        primaryStage.setTitle("Medyczny system ekspertowy");
+        primaryStage.setTitle("Medyczny System Ekspertowy");
         primaryStage.setScene(new Scene(root));
 
         controller = fxmlLoader.getController();
